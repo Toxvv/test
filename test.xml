@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<plot>
+ <gnss_orbit>
+  <sat prn="G01">
+   <orbit time="2024-03-27 12:00:00">1.0,2.0,3.0</orbit>
+   <orbit time="2024-03-27 13:00:00">2.0,3.0,4.0</orbit>
+  </sat>
+  <sat prn="G02">
+   <orbit time="2024-03-27 12:00:00">3.0,4.0,5.0</orbit>
+   <orbit time="2024-03-27 13:00:00">4.0,5.0,6.0</orbit>
+  </sat>
+ </gnss_orbit>
+</plot>

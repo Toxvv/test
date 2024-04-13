@@ -1,0 +1,25 @@
+xml.dom.minidom 是 Python 中用于处理 XML 的内置模块之一。它提供了一系列函数和类，用于解析、创建和操作 XML 文档。下面是 xml.dom.minidom 中一些常用的读写 XML 的函数：
+
+parse(filename): 从文件中解析 XML 数据，并返回一个表示整个 XML 文档的 Document 对象。
+
+parseString(xmlstring): 从字符串中解析 XML 数据，并返回一个表示整个 XML 文档的 Document 对象。
+
+Document.createElement(tagName): 创建一个新的元素节点，并指定元素的标签名称。返回一个 Element 对象。
+
+Document.createTextNode(data): 创建一个包含指定数据的文本节点，并返回一个 Text 对象。
+
+Document.createComment(data): 创建一个包含指定数据的注释节点，并返回一个 Comment 对象。
+
+Node.appendChild(node): 将指定的节点添加为当前节点的子节点。通常用于将元素节点、文本节点或注释节点添加到文档树中。
+
+Element.setAttribute(name, value): 设置元素节点的属性。name 参数为属性名称，value 参数为属性值。
+
+Element.getAttribute(name): 获取元素节点的指定属性的值。
+
+Element.getElementsByTagName(tagName): 返回一个包含指定标签名称的所有子元素的列表。通常用于检索文档中具有相同标签名称的所有元素。
+
+Node.toxml(): 返回表示当前节点及其子节点的 XML 字符串。这个方法用于将 XML 节点转换为字符串表示。
+
+Node.toprettyxml(indent='\t'): 返回一个带有缩进结构的易读的 XML 字符串表示。可以通过 indent 参数指定缩进字符，默认为制表符。
+
+Document.writexml(file, indent='', addindent='', newl=''): 将整个 XML 文档写入到指定的文件对象中。可以通过设置 indent、addindent 和 newl 参数来指定缩进、每一级增加的缩进和换行字符。

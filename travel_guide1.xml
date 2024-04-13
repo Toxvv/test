@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<travel_guide>
+  <country>
+    <name>USA</name>
+    <city>
+      <name>New York</name>
+      <attraction>
+        <name>Statue of Liberty</name>
+      </attraction>
+      <attraction>
+        <name>Central Park</name>
+      </attraction>
+    </city>
+    <city>
+      <name>Los Angeles</name>
+      <attraction>
+        <name>Hollywood</name>
+      </attraction>
+      <attraction>
+        <name>Disneyland</name>
+      </attraction>
+    </city>
+  </country>
+  <country>
+    <name>France</name>
+    <city>
+      <name>Paris</name>
+      <attraction>
+        <name>Eiffel Tower</name>
+      </attraction>
+      <attraction>
+        <name>Louvre Museum</name>
+      </attraction>
+    </city>
+    <city>
+      <name>Nice</name>
+      <attraction>
+        <name>Promenade des Anglais</name>
+      </attraction>
+      <attraction>
+        <name>Cours Saleya</name>
+      </attraction>
+    </city>
+  </country>
+</travel_guide>

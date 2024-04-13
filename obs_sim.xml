@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<obs_sim_root>
+ <start_time>2022-10-10 00:00:00</start_time>
+ <arc_length>86400</arc_length>
+ <fit>60</fit>
+ <gnss_dir>D:\Project\NOW\TLJ\02-Windows\Code\runTLJ\data</gnss_dir>
+ <sim_sp3_file>D:\Project\NOW\TLJ\02-Windows\Code\workspace\Sim\Orbit\L9822311.sp3</sim_sp3_file>
+ <gnss_system>BDS,GPS</gnss_system>
+ <sid_threshold>24.0</sid_threshold>
+ <phase_noise>0.03</phase_noise>
+ <pseudo_noise>10.0</pseudo_noise>
+ <cut_off>15.0</cut_off>
+ <error_file>error_file</error_file>
+ <output>D:\Project\NOW\TLJ\02-Windows\Code\workspace\Sim\Obs</output>
+ <bin_dir>D:\Project\NOW\TLJ\02-Windows\Code\software_dir</bin_dir>
+</obs_sim_root>

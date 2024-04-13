@@ -1,0 +1,16 @@
+<data>
+    <country name="USA">
+        <rank>1</rank>
+        <year>2023</year>
+        <gdppc>134009</gdppc>
+        <neighbor name="Canada" direction="N"/>
+        <neighbor name="Mexico" direction="S"/>
+    </country>
+    <country name="China">
+        <rank>2</rank>
+        <year>2023</year>
+        <gdppc>92709</gdppc>
+        <neighbor name="India" direction="W"/>
+        <neighbor name="Russia" direction="N"/>
+    </country>
+</data>
